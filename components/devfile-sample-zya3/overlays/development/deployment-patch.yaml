@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-zya3
+  namespace: utherp0-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:437d3da27d902fbd2035dbd85f8b5f58c07fcda77768f11969f7fa45af35c9b3
+        name: my-nodejs
+        resources: {}
+status: {}
