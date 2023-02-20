@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zya3
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:utherp0-tenant-devfile-sample-zya3
+      - image: quay.io/redhat-appstudio/user-workload@sha256:437d3da27d902fbd2035dbd85f8b5f58c07fcda77768f11969f7fa45af35c9b3
         name: my-nodejs
         ports:
         - containerPort: 3001
